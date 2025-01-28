@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block page_title %}
+  Weazeloo
+{% endblock %}
+
+{% block content %}
+  <h1>Weazeloo Main Page</h1>
+  <ul>
+    {% for item in bookmarks %}
+      <li>{{item.id}} {{ item.title }} {{ item.url }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
