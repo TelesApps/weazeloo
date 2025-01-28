@@ -57,7 +57,7 @@
                 data: invitation_url,
                 width: 200,
                 height: 200,
-                image: 'https://your-logo.png',
+                image: 'https://5764175.fs1.hubspotusercontent-na1.net/hub/5764175/hubfs/Add%20a%20heading%20(1).png?width=108&height=108',
                 imageOptions: { hideBackgroundDots: false, imageSize: 1.2 }
               });
               qrCode.append(qrDiv);
