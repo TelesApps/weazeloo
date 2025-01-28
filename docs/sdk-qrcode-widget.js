@@ -11,7 +11,7 @@
     const serviceUrl  = 'https://dev-api.instnt.org';
     const sdkVersion  = '2.1.0-beta.2';
     // Container in which to inject the form snippet
-    const containerId = 'instnt-widget-container';
+    const containerId = 'instnt-QR-widget';
   
     // 3) Possibly load or bundle qr-code-styling
     //    If you want to load it dynamically from a CDN:
